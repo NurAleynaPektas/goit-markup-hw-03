@@ -90,9 +90,9 @@ img {
   color: #404bbf;
 }
 
-/*MAİN EFFECTİVE PLACE FİRST SECTİON*/
+/*MAİN FİRST SECTİON*/
 
-.nav-order {
+.main-first-section {
   background-color: #2e2f42;
   padding: 188px 0;
 }
@@ -122,15 +122,28 @@ img {
   border-radius: 4px;
 }
 
-.nav-order :hover {
+.main-first-section :hover {
   background-color: #404bbf;
 }
 
-.nav-order :focus {
+.main-first-section :focus {
   background-color: #404bbf;
 }
 
 /* ABOUT BUİSNESS SECOND SECTİON */
+
+.main-second-section {
+  padding: 120px 0;
+}
+
+.main-second-section-ul {
+  display: flex;
+  gap: 24px;
+}
+
+.main-second-section-ul-li {
+  width: calc((100%-72px) / 4);
+}
 
 .h-part {
   font-weight: 500;
@@ -138,6 +151,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .p-part {
