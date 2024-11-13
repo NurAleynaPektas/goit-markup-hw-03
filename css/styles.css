@@ -225,6 +225,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .h-banking {
@@ -240,6 +241,28 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.main-fourth-section {
+  padding: 120px 0;
+}
+
+.main-fourth-section-ul {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.main-fourth-section-li {
+  width: calc((100% - 72px) / 4);
+}
+
+.main-fourth-section-div {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 
 /*FOOTER PLACE*/
