@@ -168,8 +168,9 @@ img {
 
 /*OUR TEAM THİRD SECTİON */
 
-.our-team {
+.main-third-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .h-our-team {
@@ -179,10 +180,22 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.main-third-section-ul {
+  display: flex;
+  gap: 24px;
 }
 
 .img-li {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.main-third-section-name-job {
+  padding: 32px 0;
 }
 
 .h-name {
@@ -191,6 +204,8 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .p-job {
@@ -198,6 +213,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
 
 /*FOURTH SECTİON */
