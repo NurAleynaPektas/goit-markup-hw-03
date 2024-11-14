@@ -188,7 +188,7 @@ img {
   gap: 24px;
 }
 
-.img-li {
+.main-third-section-ul .img-li {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
@@ -266,6 +266,10 @@ img {
 }
 
 /*FOOTER PLACE*/
+.f-footer {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
 
 .footer-a {
   font-family: "Raleway", sans-serif;
@@ -277,11 +281,6 @@ img {
   color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
-}
-
-.f-footer {
-  background-color: #2e2f42;
-  padding: 100px 0;
 }
 
 span {
