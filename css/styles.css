@@ -33,6 +33,7 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  text-decoration: none;
 }
 
 .header-ul {
@@ -42,11 +43,13 @@ img {
 
 .header-li {
   padding: 24px 0;
+  list-style: none;
 }
 
 .adress-ul {
   display: flex;
   gap: 40px;
+  list-style-type: none;
 }
 
 .studio {
@@ -59,6 +62,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-decoration: none;
 }
 .nav-hover :hover {
   color: #404bbf;
@@ -69,7 +73,10 @@ img {
 }
 
 .adress {
+  display: block;
   font-style: normal;
+  margin-top: 25px;
+  margin-left: 156px;
 }
 
 .adress-mail-tel {
@@ -77,6 +84,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-decoration: none;
 }
 
 .mail-tel-hover :hover {
@@ -241,7 +249,6 @@ img {
 
 .main-fourth-section {
   padding: 120px 0;
-  background-color: rebeccapurple;
 }
 
 .main-fourth-section-ul {
@@ -252,7 +259,8 @@ img {
 }
 
 .main-fourth-section-li {
-  width: calc((100%-72px) / 4);
+  width: 360px;
+  height: 420px;
 }
 
 .main-fourth-section-div {
