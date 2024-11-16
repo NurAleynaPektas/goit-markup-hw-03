@@ -139,7 +139,7 @@ img {
 }
 
 .main-second-section-ul-li {
-  width: calc((100% - 72px) / 4);
+  width: calc((100%-72px)) / 4;
 }
 
 .visually-hidden {
@@ -186,7 +186,7 @@ img {
 
 .img-li {
   background-color: #ffffff;
-  width: calc((100% - 72px) / 4);
+  width: calc((100%-72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -241,6 +241,7 @@ img {
 
 .main-fourth-section {
   padding: 120px 0;
+  background-color: rebeccapurple;
 }
 
 .main-fourth-section-ul {
@@ -251,7 +252,7 @@ img {
 }
 
 .main-fourth-section-li {
-  width: calc((100% - 72px) / 4);
+  width: calc((100%-72px) / 4);
 }
 
 .main-fourth-section-div {
