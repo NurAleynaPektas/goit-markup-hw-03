@@ -147,6 +147,7 @@ img {
 }
 
 .main-second-section-ul-li {
+  list-style-type: none;
   width: calc((100%-72px)) / 4;
 }
 
@@ -196,6 +197,7 @@ img {
   background-color: #ffffff;
   width: calc((100%-72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  list-style-type: none;
 }
 
 .main-third-section-name-job {
@@ -261,6 +263,7 @@ img {
 .main-fourth-section-li {
   width: 360px;
   height: 420px;
+  list-style-type: none;
 }
 
 .main-fourth-section-div {
