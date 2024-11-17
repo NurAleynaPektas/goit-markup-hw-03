@@ -253,6 +253,12 @@ img {
   padding: 120px 0;
 }
 
+.fourth-div-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 .main-fourth-section-ul {
   display: flex;
   text-align: center;
@@ -274,11 +280,22 @@ img {
   border-top: none;
   margin-bottom: 8px;
 }
+.fourth-section-img-div {
+  display: flex;
+  flex-direction: row;
+  width: 1128px;
+  height: 420px;
+  gap: 24px;
+}
 
 /*FOOTER PLACE*/
 .f-footer {
   background-color: #2e2f42;
   padding: 100px 0;
+}
+
+.footer-div-container {
+  display: block;
 }
 
 .footer-a {
