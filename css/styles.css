@@ -96,6 +96,9 @@ img {
 }
 
 /*MAİN FİRST SECTİON*/
+.main-div {
+  display: block;
+}
 
 .main-first-section {
   background-color: #2e2f42;
@@ -121,17 +124,18 @@ img {
   color: #ffffff;
   cursor: pointer;
   display: block;
+  margin: 0 auto;
   min-width: 169px;
   height: 56px;
   border: none;
   border-radius: 4px;
 }
 
-.main-first-section :hover {
+.order-button:hover {
   background-color: #404bbf;
 }
 
-.main-first-section :focus {
+.order-button:focus {
   background-color: #404bbf;
 }
 
@@ -172,6 +176,9 @@ img {
 }
 
 /*OUR TEAM THİRD SECTİON */
+.main-third-div-container {
+  display: block;
+}
 
 .main-third-section {
   background-color: #f4f4fd;
