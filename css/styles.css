@@ -255,6 +255,8 @@ img {
 
 .main-fourth-section-ul {
   display: flex;
+  text-align: center;
+  justify-content: center;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
@@ -288,6 +290,8 @@ img {
   text-transform: uppercase;
   display: inline-block;
   color: #4d5ae5;
+  margin-bottom: 16px;
+  text-decoration: none;
   margin-bottom: 16px;
 }
 
